@@ -3,6 +3,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import compression from "compression";
 
 import { authRouter } from "./routes/auth.routes.js";
 import { mobileAuthRouter } from "./routes/mobileAuthRoutes.js";
@@ -12,15 +13,19 @@ const app = express();
 
 // Render reverse proxy
 app.set("trust proxy", 1);
+app.disable("x-powered-by");
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: process.env.ADMIN_ORIGIN || "http://localhost:3000",
     credentials: true,
   })
 );
 
-app.use(express.json());
+// Smaller responses = faster on mobile networks.
+app.use(compression());
+
+app.use(express.json({ limit: "100kb" }));
 app.use(cookieParser());
 
 app.get("/api/health", (_, res) =>
@@ -30,9 +35,13 @@ app.get("/api/health", (_, res) =>
   })
 );
 
+// Admin
 app.use("/api/auth", authRouter);
-app.use("/api/mobile-auth", mobileAuthRouter);
 app.use("/api/admin/users", adminUserRouter);
+
+// Mobile
+app.use("/api/mobile-auth", mobileAuthRouter);
+
 
 const port = process.env.PORT || 5000;
 
