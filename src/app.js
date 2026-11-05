@@ -38,20 +38,51 @@ export function createApp() {
 
   app.use(requestContext);
   app.use(helmet());
+const normalizeOrigin = (value) => {
+  try {
+    return new URL(value.trim()).origin;
+  } catch {
+    return null;
+  }
+};
 
-  app.use(
-    cors({
-      // Native mobile requests have no Origin header and are unaffected by CORS.
-      origin(origin, callback) {
-        if (!origin) return callback(null, true);
-        return callback(null, config.allowedOrigins.includes(origin.replace(/\/+$/, "")));
-      },
-      credentials: true,
-      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-      allowedHeaders: ["Content-Type", "Authorization"],
-      maxAge: 600,
-    })
-  );
+const allowedOrigins = new Set(
+  config.allowedOrigins
+    .map(normalizeOrigin)
+    .filter(Boolean)
+);
+
+// Admin frontend
+allowedOrigins.add("https://petcard-mobile-admin.vercel.app");
+
+app.use(
+  cors({
+    origin(origin, callback) {
+      // Native mobile apps and server-to-server requests
+      // generally don't send an Origin header.
+      if (!origin) {
+        return callback(null, true);
+      }
+
+      const normalizedOrigin = normalizeOrigin(origin);
+
+      if (normalizedOrigin && allowedOrigins.has(normalizedOrigin)) {
+        return callback(null, true);
+      }
+
+      console.warn("CORS blocked origin:", origin);
+      return callback(null, false);
+    },
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: [
+      "Content-Type",
+      "Authorization",
+      "X-Requested-With"
+    ],
+    maxAge: 600,
+  })
+);
 
   app.use(compression());
   app.use(express.json({ limit: "20kb", strict: true }));
