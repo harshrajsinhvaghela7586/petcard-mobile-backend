@@ -1,0 +1,102 @@
+/*
+ * Countries (mobile-number country picker) and app languages.
+ * `min`/`max` = allowed digit count of the NATIONAL number (no country code,
+ * no trunk "0"). `pattern` is an optional stricter check.
+ */
+const C = (iso, name, dial, min, max, pattern = null) => ({ iso, name, dial, min, max, pattern });
+
+export const COUNTRIES = Object.freeze([
+  C("IN", "India", "+91", 10, 10, /^[6-9]\d{9}$/),
+  C("PK", "Pakistan", "+92", 10, 10, /^3\d{9}$/),
+  C("BD", "Bangladesh", "+880", 10, 10, /^1\d{9}$/),
+  C("LK", "Sri Lanka", "+94", 9, 9),
+  C("NP", "Nepal", "+977", 10, 10),
+  C("BT", "Bhutan", "+975", 8, 8),
+  C("MV", "Maldives", "+960", 7, 7),
+  C("AF", "Afghanistan", "+93", 9, 9),
+  C("US", "United States", "+1", 10, 10, /^[2-9]\d{9}$/),
+  C("CA", "Canada", "+1", 10, 10, /^[2-9]\d{9}$/),
+  C("GB", "United Kingdom", "+44", 10, 10, /^[1-9]\d{9}$/),
+  C("IE", "Ireland", "+353", 8, 9),
+  C("AU", "Australia", "+61", 9, 9),
+  C("NZ", "New Zealand", "+64", 8, 10),
+  C("AE", "United Arab Emirates", "+971", 9, 9),
+  C("SA", "Saudi Arabia", "+966", 9, 9),
+  C("QA", "Qatar", "+974", 8, 8),
+  C("KW", "Kuwait", "+965", 8, 8),
+  C("OM", "Oman", "+968", 8, 8),
+  C("BH", "Bahrain", "+973", 8, 8),
+  C("JO", "Jordan", "+962", 9, 9),
+  C("LB", "Lebanon", "+961", 7, 8),
+  C("IL", "Israel", "+972", 9, 9),
+  C("IQ", "Iraq", "+964", 10, 10),
+  C("IR", "Iran", "+98", 10, 10),
+  C("TR", "Turkey", "+90", 10, 10),
+  C("EG", "Egypt", "+20", 10, 10),
+  C("ZA", "South Africa", "+27", 9, 9),
+  C("NG", "Nigeria", "+234", 10, 10),
+  C("KE", "Kenya", "+254", 9, 9),
+  C("GH", "Ghana", "+233", 9, 9),
+  C("SG", "Singapore", "+65", 8, 8),
+  C("MY", "Malaysia", "+60", 9, 10),
+  C("ID", "Indonesia", "+62", 9, 12),
+  C("PH", "Philippines", "+63", 10, 10),
+  C("TH", "Thailand", "+66", 9, 9),
+  C("VN", "Vietnam", "+84", 9, 10),
+  C("MM", "Myanmar", "+95", 8, 10),
+  C("KH", "Cambodia", "+855", 8, 9),
+  C("HK", "Hong Kong", "+852", 8, 8),
+  C("TW", "Taiwan", "+886", 9, 9),
+  C("CN", "China", "+86", 11, 11, /^1\d{10}$/),
+  C("JP", "Japan", "+81", 10, 10),
+  C("KR", "South Korea", "+82", 9, 10),
+  C("DE", "Germany", "+49", 10, 11),
+  C("FR", "France", "+33", 9, 9),
+  C("IT", "Italy", "+39", 9, 10),
+  C("ES", "Spain", "+34", 9, 9),
+  C("PT", "Portugal", "+351", 9, 9),
+  C("NL", "Netherlands", "+31", 9, 9),
+  C("BE", "Belgium", "+32", 8, 9),
+  C("CH", "Switzerland", "+41", 9, 9),
+  C("AT", "Austria", "+43", 10, 11),
+  C("SE", "Sweden", "+46", 9, 9),
+  C("NO", "Norway", "+47", 8, 8),
+  C("DK", "Denmark", "+45", 8, 8),
+  C("FI", "Finland", "+358", 9, 10),
+  C("PL", "Poland", "+48", 9, 9),
+  C("RU", "Russia", "+7", 10, 10, /^9\d{9}$/),
+  C("BR", "Brazil", "+55", 10, 11),
+  C("MX", "Mexico", "+52", 10, 10),
+  C("AR", "Argentina", "+54", 10, 10),
+  C("CO", "Colombia", "+57", 10, 10),
+  C("CL", "Chile", "+56", 9, 9),
+]);
+
+export const DEFAULT_COUNTRY = "IN";
+export const COUNTRY_BY_ISO = new Map(COUNTRIES.map((c) => [c.iso, c]));
+/** Longest first so "+971" is matched before "+97". */
+export const DIAL_PREFIXES = [...new Set(COUNTRIES.map((c) => c.dial))].sort((a, b) => b.length - a.length);
+
+export const LANGUAGES = Object.freeze([
+  { code: "en", name: "English", native: "English", rtl: false },
+  { code: "hi", name: "Hindi", native: "हिन्दी", rtl: false },
+  { code: "gu", name: "Gujarati", native: "ગુજરાતી", rtl: false },
+  { code: "mr", name: "Marathi", native: "मराठी", rtl: false },
+  { code: "bn", name: "Bengali", native: "বাংলা", rtl: false },
+  { code: "ta", name: "Tamil", native: "தமிழ்", rtl: false },
+  { code: "te", name: "Telugu", native: "తెలుగు", rtl: false },
+  { code: "kn", name: "Kannada", native: "ಕನ್ನಡ", rtl: false },
+  { code: "ml", name: "Malayalam", native: "മലയാളം", rtl: false },
+  { code: "pa", name: "Punjabi", native: "ਪੰਜਾਬੀ", rtl: false },
+  { code: "ur", name: "Urdu", native: "اردو", rtl: true },
+  { code: "ar", name: "Arabic", native: "العربية", rtl: true },
+  { code: "es", name: "Spanish", native: "Español", rtl: false },
+  { code: "fr", name: "French", native: "Français", rtl: false },
+  { code: "de", name: "German", native: "Deutsch", rtl: false },
+  { code: "pt", name: "Portuguese", native: "Português", rtl: false },
+  { code: "nl", name: "Dutch", native: "Nederlands", rtl: false },
+  { code: "it", name: "Italian", native: "Italiano", rtl: false },
+]);
+export const LANGUAGE_CODES = LANGUAGES.map((l) => l.code);
+export const LANGUAGE_BY_CODE = new Map(LANGUAGES.map((l) => [l.code, l]));
+export const DEFAULT_LANGUAGE = "en";
