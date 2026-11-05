@@ -14,7 +14,7 @@ import * as assistant from "../controller/assistantController.js";
 import * as cards from "../controller/cardController.js";
 import { petAccess, requireOwner, requirePetPermission } from "../middleware/petAccess.js";
 import { inviteCreateLimiter, assistantLimiter } from "../middleware/userLimiters.js";
-import * as knowMenu from "../controller/knowMenuController.js";
+import * as knowMenu from "../controller/knowmenuController.js";
 import * as knowGuide from "../controller/KnowGuideController.js";
 
 export const petsRouter = Router();
