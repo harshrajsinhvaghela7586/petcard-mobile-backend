@@ -1,0 +1,741 @@
+{
+  "_note": "15 stickers per avatar. Image 1-7 free, 8-10 silver 50, 11-13 platinum 70, 14-15 premium 80 Paw Points.",
+  "avatars": [],
+  "stickers": [
+    {
+      "key": "huchiko-1",
+      "petType": "all",
+      "label": "Huchiko Normal 1",
+      "order": 0,
+      "price": 0
+    },
+    {
+      "key": "huchiko-2",
+      "petType": "all",
+      "label": "Huchiko Normal 2",
+      "order": 1,
+      "price": 0
+    },
+    {
+      "key": "huchiko-3",
+      "petType": "all",
+      "label": "Huchiko Normal 3",
+      "order": 2,
+      "price": 0
+    },
+    {
+      "key": "huchiko-4",
+      "petType": "all",
+      "label": "Huchiko Normal 4",
+      "order": 3,
+      "price": 0
+    },
+    {
+      "key": "huchiko-5",
+      "petType": "all",
+      "label": "Huchiko Normal 5",
+      "order": 4,
+      "price": 0
+    },
+    {
+      "key": "huchiko-6",
+      "petType": "all",
+      "label": "Huchiko Normal 6",
+      "order": 5,
+      "price": 0
+    },
+    {
+      "key": "huchiko-7",
+      "petType": "all",
+      "label": "Huchiko Normal 7",
+      "order": 6,
+      "price": 0
+    },
+    {
+      "key": "huchiko-8",
+      "petType": "all",
+      "label": "Huchiko Silver 8",
+      "order": 7,
+      "price": 50
+    },
+    {
+      "key": "huchiko-9",
+      "petType": "all",
+      "label": "Huchiko Silver 9",
+      "order": 8,
+      "price": 50
+    },
+    {
+      "key": "huchiko-10",
+      "petType": "all",
+      "label": "Huchiko Silver 10",
+      "order": 9,
+      "price": 50
+    },
+    {
+      "key": "huchiko-11",
+      "petType": "all",
+      "label": "Huchiko Platinum 11",
+      "order": 10,
+      "price": 70
+    },
+    {
+      "key": "huchiko-12",
+      "petType": "all",
+      "label": "Huchiko Platinum 12",
+      "order": 11,
+      "price": 70
+    },
+    {
+      "key": "huchiko-13",
+      "petType": "all",
+      "label": "Huchiko Platinum 13",
+      "order": 12,
+      "price": 70
+    },
+    {
+      "key": "huchiko-14",
+      "petType": "all",
+      "label": "Huchiko Premium 14",
+      "order": 13,
+      "price": 80
+    },
+    {
+      "key": "huchiko-15",
+      "petType": "all",
+      "label": "Huchiko Premium 15",
+      "order": 14,
+      "price": 80
+    },
+    {
+      "key": "browny-1",
+      "petType": "all",
+      "label": "Browny Normal 1",
+      "order": 0,
+      "price": 0
+    },
+    {
+      "key": "browny-2",
+      "petType": "all",
+      "label": "Browny Normal 2",
+      "order": 1,
+      "price": 0
+    },
+    {
+      "key": "browny-3",
+      "petType": "all",
+      "label": "Browny Normal 3",
+      "order": 2,
+      "price": 0
+    },
+    {
+      "key": "browny-4",
+      "petType": "all",
+      "label": "Browny Normal 4",
+      "order": 3,
+      "price": 0
+    },
+    {
+      "key": "browny-5",
+      "petType": "all",
+      "label": "Browny Normal 5",
+      "order": 4,
+      "price": 0
+    },
+    {
+      "key": "browny-6",
+      "petType": "all",
+      "label": "Browny Normal 6",
+      "order": 5,
+      "price": 0
+    },
+    {
+      "key": "browny-7",
+      "petType": "all",
+      "label": "Browny Normal 7",
+      "order": 6,
+      "price": 0
+    },
+    {
+      "key": "browny-8",
+      "petType": "all",
+      "label": "Browny Silver 8",
+      "order": 7,
+      "price": 50
+    },
+    {
+      "key": "browny-9",
+      "petType": "all",
+      "label": "Browny Silver 9",
+      "order": 8,
+      "price": 50
+    },
+    {
+      "key": "browny-10",
+      "petType": "all",
+      "label": "Browny Silver 10",
+      "order": 9,
+      "price": 50
+    },
+    {
+      "key": "browny-11",
+      "petType": "all",
+      "label": "Browny Platinum 11",
+      "order": 10,
+      "price": 70
+    },
+    {
+      "key": "browny-12",
+      "petType": "all",
+      "label": "Browny Platinum 12",
+      "order": 11,
+      "price": 70
+    },
+    {
+      "key": "browny-13",
+      "petType": "all",
+      "label": "Browny Platinum 13",
+      "order": 12,
+      "price": 70
+    },
+    {
+      "key": "browny-14",
+      "petType": "all",
+      "label": "Browny Premium 14",
+      "order": 13,
+      "price": 80
+    },
+    {
+      "key": "browny-15",
+      "petType": "all",
+      "label": "Browny Premium 15",
+      "order": 14,
+      "price": 80
+    },
+    {
+      "key": "noir-1",
+      "petType": "all",
+      "label": "Noir Normal 1",
+      "order": 0,
+      "price": 0
+    },
+    {
+      "key": "noir-2",
+      "petType": "all",
+      "label": "Noir Normal 2",
+      "order": 1,
+      "price": 0
+    },
+    {
+      "key": "noir-3",
+      "petType": "all",
+      "label": "Noir Normal 3",
+      "order": 2,
+      "price": 0
+    },
+    {
+      "key": "noir-4",
+      "petType": "all",
+      "label": "Noir Normal 4",
+      "order": 3,
+      "price": 0
+    },
+    {
+      "key": "noir-5",
+      "petType": "all",
+      "label": "Noir Normal 5",
+      "order": 4,
+      "price": 0
+    },
+    {
+      "key": "noir-6",
+      "petType": "all",
+      "label": "Noir Normal 6",
+      "order": 5,
+      "price": 0
+    },
+    {
+      "key": "noir-7",
+      "petType": "all",
+      "label": "Noir Normal 7",
+      "order": 6,
+      "price": 0
+    },
+    {
+      "key": "noir-8",
+      "petType": "all",
+      "label": "Noir Silver 8",
+      "order": 7,
+      "price": 50
+    },
+    {
+      "key": "noir-9",
+      "petType": "all",
+      "label": "Noir Silver 9",
+      "order": 8,
+      "price": 50
+    },
+    {
+      "key": "noir-10",
+      "petType": "all",
+      "label": "Noir Silver 10",
+      "order": 9,
+      "price": 50
+    },
+    {
+      "key": "noir-11",
+      "petType": "all",
+      "label": "Noir Platinum 11",
+      "order": 10,
+      "price": 70
+    },
+    {
+      "key": "noir-12",
+      "petType": "all",
+      "label": "Noir Platinum 12",
+      "order": 11,
+      "price": 70
+    },
+    {
+      "key": "noir-13",
+      "petType": "all",
+      "label": "Noir Platinum 13",
+      "order": 12,
+      "price": 70
+    },
+    {
+      "key": "noir-14",
+      "petType": "all",
+      "label": "Noir Premium 14",
+      "order": 13,
+      "price": 80
+    },
+    {
+      "key": "noir-15",
+      "petType": "all",
+      "label": "Noir Premium 15",
+      "order": 14,
+      "price": 80
+    },
+    {
+      "key": "kiki-1",
+      "petType": "all",
+      "label": "Kiki Normal 1",
+      "order": 0,
+      "price": 0
+    },
+    {
+      "key": "kiki-2",
+      "petType": "all",
+      "label": "Kiki Normal 2",
+      "order": 1,
+      "price": 0
+    },
+    {
+      "key": "kiki-3",
+      "petType": "all",
+      "label": "Kiki Normal 3",
+      "order": 2,
+      "price": 0
+    },
+    {
+      "key": "kiki-4",
+      "petType": "all",
+      "label": "Kiki Normal 4",
+      "order": 3,
+      "price": 0
+    },
+    {
+      "key": "kiki-5",
+      "petType": "all",
+      "label": "Kiki Normal 5",
+      "order": 4,
+      "price": 0
+    },
+    {
+      "key": "kiki-6",
+      "petType": "all",
+      "label": "Kiki Normal 6",
+      "order": 5,
+      "price": 0
+    },
+    {
+      "key": "kiki-7",
+      "petType": "all",
+      "label": "Kiki Normal 7",
+      "order": 6,
+      "price": 0
+    },
+    {
+      "key": "kiki-8",
+      "petType": "all",
+      "label": "Kiki Silver 8",
+      "order": 7,
+      "price": 50
+    },
+    {
+      "key": "kiki-9",
+      "petType": "all",
+      "label": "Kiki Silver 9",
+      "order": 8,
+      "price": 50
+    },
+    {
+      "key": "kiki-10",
+      "petType": "all",
+      "label": "Kiki Silver 10",
+      "order": 9,
+      "price": 50
+    },
+    {
+      "key": "kiki-11",
+      "petType": "all",
+      "label": "Kiki Platinum 11",
+      "order": 10,
+      "price": 70
+    },
+    {
+      "key": "kiki-12",
+      "petType": "all",
+      "label": "Kiki Platinum 12",
+      "order": 11,
+      "price": 70
+    },
+    {
+      "key": "kiki-13",
+      "petType": "all",
+      "label": "Kiki Platinum 13",
+      "order": 12,
+      "price": 70
+    },
+    {
+      "key": "kiki-14",
+      "petType": "all",
+      "label": "Kiki Premium 14",
+      "order": 13,
+      "price": 80
+    },
+    {
+      "key": "kiki-15",
+      "petType": "all",
+      "label": "Kiki Premium 15",
+      "order": 14,
+      "price": 80
+    },
+    {
+      "key": "oreo-1",
+      "petType": "all",
+      "label": "Oreo Normal 1",
+      "order": 0,
+      "price": 0
+    },
+    {
+      "key": "oreo-2",
+      "petType": "all",
+      "label": "Oreo Normal 2",
+      "order": 1,
+      "price": 0
+    },
+    {
+      "key": "oreo-3",
+      "petType": "all",
+      "label": "Oreo Normal 3",
+      "order": 2,
+      "price": 0
+    },
+    {
+      "key": "oreo-4",
+      "petType": "all",
+      "label": "Oreo Normal 4",
+      "order": 3,
+      "price": 0
+    },
+    {
+      "key": "oreo-5",
+      "petType": "all",
+      "label": "Oreo Normal 5",
+      "order": 4,
+      "price": 0
+    },
+    {
+      "key": "oreo-6",
+      "petType": "all",
+      "label": "Oreo Normal 6",
+      "order": 5,
+      "price": 0
+    },
+    {
+      "key": "oreo-7",
+      "petType": "all",
+      "label": "Oreo Normal 7",
+      "order": 6,
+      "price": 0
+    },
+    {
+      "key": "oreo-8",
+      "petType": "all",
+      "label": "Oreo Silver 8",
+      "order": 7,
+      "price": 50
+    },
+    {
+      "key": "oreo-9",
+      "petType": "all",
+      "label": "Oreo Silver 9",
+      "order": 8,
+      "price": 50
+    },
+    {
+      "key": "oreo-10",
+      "petType": "all",
+      "label": "Oreo Silver 10",
+      "order": 9,
+      "price": 50
+    },
+    {
+      "key": "oreo-11",
+      "petType": "all",
+      "label": "Oreo Platinum 11",
+      "order": 10,
+      "price": 70
+    },
+    {
+      "key": "oreo-12",
+      "petType": "all",
+      "label": "Oreo Platinum 12",
+      "order": 11,
+      "price": 70
+    },
+    {
+      "key": "oreo-13",
+      "petType": "all",
+      "label": "Oreo Platinum 13",
+      "order": 12,
+      "price": 70
+    },
+    {
+      "key": "oreo-14",
+      "petType": "all",
+      "label": "Oreo Premium 14",
+      "order": 13,
+      "price": 80
+    },
+    {
+      "key": "oreo-15",
+      "petType": "all",
+      "label": "Oreo Premium 15",
+      "order": 14,
+      "price": 80
+    },
+    {
+      "key": "cupid-1",
+      "petType": "all",
+      "label": "Cupid Normal 1",
+      "order": 0,
+      "price": 0
+    },
+    {
+      "key": "cupid-2",
+      "petType": "all",
+      "label": "Cupid Normal 2",
+      "order": 1,
+      "price": 0
+    },
+    {
+      "key": "cupid-3",
+      "petType": "all",
+      "label": "Cupid Normal 3",
+      "order": 2,
+      "price": 0
+    },
+    {
+      "key": "cupid-4",
+      "petType": "all",
+      "label": "Cupid Normal 4",
+      "order": 3,
+      "price": 0
+    },
+    {
+      "key": "cupid-5",
+      "petType": "all",
+      "label": "Cupid Normal 5",
+      "order": 4,
+      "price": 0
+    },
+    {
+      "key": "cupid-6",
+      "petType": "all",
+      "label": "Cupid Normal 6",
+      "order": 5,
+      "price": 0
+    },
+    {
+      "key": "cupid-7",
+      "petType": "all",
+      "label": "Cupid Normal 7",
+      "order": 6,
+      "price": 0
+    },
+    {
+      "key": "cupid-8",
+      "petType": "all",
+      "label": "Cupid Silver 8",
+      "order": 7,
+      "price": 50
+    },
+    {
+      "key": "cupid-9",
+      "petType": "all",
+      "label": "Cupid Silver 9",
+      "order": 8,
+      "price": 50
+    },
+    {
+      "key": "cupid-10",
+      "petType": "all",
+      "label": "Cupid Silver 10",
+      "order": 9,
+      "price": 50
+    },
+    {
+      "key": "cupid-11",
+      "petType": "all",
+      "label": "Cupid Platinum 11",
+      "order": 10,
+      "price": 70
+    },
+    {
+      "key": "cupid-12",
+      "petType": "all",
+      "label": "Cupid Platinum 12",
+      "order": 11,
+      "price": 70
+    },
+    {
+      "key": "cupid-13",
+      "petType": "all",
+      "label": "Cupid Platinum 13",
+      "order": 12,
+      "price": 70
+    },
+    {
+      "key": "cupid-14",
+      "petType": "all",
+      "label": "Cupid Premium 14",
+      "order": 13,
+      "price": 80
+    },
+    {
+      "key": "cupid-15",
+      "petType": "all",
+      "label": "Cupid Premium 15",
+      "order": 14,
+      "price": 80
+    },
+    {
+      "key": "waffle-1",
+      "petType": "all",
+      "label": "Waffle Normal 1",
+      "order": 0,
+      "price": 0
+    },
+    {
+      "key": "waffle-2",
+      "petType": "all",
+      "label": "Waffle Normal 2",
+      "order": 1,
+      "price": 0
+    },
+    {
+      "key": "waffle-3",
+      "petType": "all",
+      "label": "Waffle Normal 3",
+      "order": 2,
+      "price": 0
+    },
+    {
+      "key": "waffle-4",
+      "petType": "all",
+      "label": "Waffle Normal 4",
+      "order": 3,
+      "price": 0
+    },
+    {
+      "key": "waffle-5",
+      "petType": "all",
+      "label": "Waffle Normal 5",
+      "order": 4,
+      "price": 0
+    },
+    {
+      "key": "waffle-6",
+      "petType": "all",
+      "label": "Waffle Normal 6",
+      "order": 5,
+      "price": 0
+    },
+    {
+      "key": "waffle-7",
+      "petType": "all",
+      "label": "Waffle Normal 7",
+      "order": 6,
+      "price": 0
+    },
+    {
+      "key": "waffle-8",
+      "petType": "all",
+      "label": "Waffle Silver 8",
+      "order": 7,
+      "price": 50
+    },
+    {
+      "key": "waffle-9",
+      "petType": "all",
+      "label": "Waffle Silver 9",
+      "order": 8,
+      "price": 50
+    },
+    {
+      "key": "waffle-10",
+      "petType": "all",
+      "label": "Waffle Silver 10",
+      "order": 9,
+      "price": 50
+    },
+    {
+      "key": "waffle-11",
+      "petType": "all",
+      "label": "Waffle Platinum 11",
+      "order": 10,
+      "price": 70
+    },
+    {
+      "key": "waffle-12",
+      "petType": "all",
+      "label": "Waffle Platinum 12",
+      "order": 11,
+      "price": 70
+    },
+    {
+      "key": "waffle-13",
+      "petType": "all",
+      "label": "Waffle Platinum 13",
+      "order": 12,
+      "price": 70
+    },
+    {
+      "key": "waffle-14",
+      "petType": "all",
+      "label": "Waffle Premium 14",
+      "order": 13,
+      "price": 80
+    },
+    {
+      "key": "waffle-15",
+      "petType": "all",
+      "label": "Waffle Premium 15",
+      "order": 14,
+      "price": 80
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "_note": "Replace labels/keys with real app asset keys before seeding. Price is Paw Points; 0 means free.",
+  "avatars": [
+    {
+      "key": "dog_avatar_1",
+      "petType": "dog",
+      "label": "Dog 1",
+      "order": 0,
+      "price": 0
+    },
+    {
+      "key": "cat_avatar_1",
+      "petType": "cat",
+      "label": "Cat 1",
+      "order": 1,
+      "price": 0
+    },
+    {
+      "key": "rabbit_avatar_1",
+      "petType": "rabbit",
+      "label": "Rabbit 1",
+      "order": 2,
+      "price": 0
+    }
+  ],
+  "stickers": [
+    {
+      "key": "huchiko-1",
+      "petType": "dog",
+      "label": "Huchiko 1",
+      "order": 0,
+      "price": 0
+    },
+    {
+      "key": "huchiko-2",
+      "petType": "dog",
+      "label": "Huchiko 2",
+      "order": 1,
+      "price": 0
+    },
+    {
+      "key": "huchiko-3",
+      "petType": "dog",
+      "label": "Huchiko 3",
+      "order": 2,
+      "price": 0
+    },
+    {
+      "key": "huchiko-4",
+      "petType": "dog",
+      "label": "Huchiko 4",
+      "order": 3,
+      "price": 50
+    },
+    {
+      "key": "huchiko-5",
+      "petType": "dog",
+      "label": "Huchiko 5",
+      "order": 4,
+      "price": 50
+    },
+    {
+      "key": "huchiko-6",
+      "petType": "dog",
+      "label": "Huchiko 6",
+      "order": 5,
+      "price": 70
+    },
+    {
+      "key": "huchiko-7",
+      "petType": "dog",
+      "label": "Huchiko 7",
+      "order": 6,
+      "price": 80
+    }
+  ]
+}
